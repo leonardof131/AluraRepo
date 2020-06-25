@@ -1,0 +1,19 @@
+{
+  "name": "hellonode",
+  "version": "1.0.0",
+  "description": "meu primeiro app node, livraria",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Leonardo F",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1",
+    "marko": "^4.22.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
